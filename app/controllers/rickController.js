@@ -15,8 +15,8 @@ function findAllUsers(req, res) {
 // i want to create one user into the Rick and Morty database
 function createOneUser(req, res) {
   const rick = new Rick({
-    firstname: req.body.firstname,
-    lastname: req.body.lastname,
+    firstname: req.body.firstName,
+    lastname: req.body.lastName,
     age: req.body.age,
   });
   rick.save((err, data) => {

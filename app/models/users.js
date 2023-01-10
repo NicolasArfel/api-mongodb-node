@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
 
+//Model for the RickAndMorty Database
 const Rick = mongoose.model('users', {
-  firstname: {
+  firstName: {
     type: String,
     required: true,
   },
-  lastname: {
+  lastName: {
     type: String,
     default: 'Nd',
     required: true,
