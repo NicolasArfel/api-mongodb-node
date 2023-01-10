@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 //Model for the RickAndMorty Database
-const Rick = mongoose.model('users', {
+const Rick = mongoose.model('rickAndMortyUser', {
   firstName: {
     type: String,
     required: true,
